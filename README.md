@@ -39,9 +39,33 @@ phpStuday是一PHP調試環境的程式集成包，包含Apache網頁伺服器+P
 
 # 【Demo】
 
-* DL-100TM485感測器讀取數據
+## DL-100TM485感測器
+
 以每2秒讀取感測器數據，由於環境為室內，所讀取出來的溫/濕度數據不會有很大的變動
 
 https://user-images.githubusercontent.com/58096503/232543914-77fec2b6-d07b-43f3-a216-894a0666a3cc.mp4
+
+
+## LC-103感測器
+
+此感測器為控制電燈開和關，設計2個Button(on、off)來控制電燈。
+
+
+https://user-images.githubusercontent.com/58096503/232553033-3ff84664-1fbf-4039-be27-a4285a2fefd4.mp4
+
+## LC-221感測器
+
+主要調整光線強度，以整數值0~100表示亮度大小。
+
+
+https://user-images.githubusercontent.com/58096503/232553576-2cc3796c-d2ba-4b9c-9fff-5c8b3fa7c223.mp4
+
+
+## PIR-130-DC感測器
+
+主要偵測人體所產生的紅外線波，偵測範圍為直徑在大約8米範圍內
+
+
+https://user-images.githubusercontent.com/58096503/232554029-0bb8b627-5c00-435b-9eb4-68ef95950322.mp4
 
 
