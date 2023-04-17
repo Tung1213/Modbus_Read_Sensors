@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>s
+
+<script>
+
+        var permission = Notification.permission;       
+        //var img="iot.jpg";
+        console.log(permission);
+        var title = "IOT_Data!!";
+        options = {
+
+            body: "Temp_Data",
+            
+            
+        }
+        function notifyMe() {
+
+            if (!("Notification" in window)) {
+                alert("這瀏覽器不支援Web Notification");
+            }
+            else if (Notification.permission === "granted") {
+
+                var  notification = new Notification(title, options);
+				show();
+				close();
+
+            }
+            else if (Notification.permission !== "denied") {
+
+                Notification.requestPermission(function (permission) {
+
+                    if (permission === "granted") {
+                        var notification = new Notification(title, options);
+                    }
+                });
+            }
+        }
+
+		
+		
+        notifyMe();
+          
+	   
+        
+
+        /*notification.onclick = function () {
+		
+
+            alert("click!!");
+
+        }*/
+		
+		function show(){
+			var notification = new Notification(title, options);
+			notification.onshow = function () {
+
+            var _this = this;
+            setTimeout(_this.close.bind(this), 2000);
+			}
+		}
+		
+        
+		function close(){
+		
+			var notification = new Notification(title, options);
+			notification.onclose = function () {
+
+            
+            console.log("close!!");
+			
+            setTimeout(notifyMe(), 5000);
+       
+
+        }
+
+		
+		
+		
+		}
+
+        
+
+	
+		
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+</body>
+
+
+</html>
