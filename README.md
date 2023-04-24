@@ -17,7 +17,7 @@
 利用phpStuday設置環境
 phpStuday是一PHP調試環境的程式集成包，包含Apache網頁伺服器+PHP+MySQL資料庫+phpMyAdmin(以web-Base方式架構在網站主機上的MySQL的資料庫管理工具)+ZendOptimizer所組成，方便使用。
 
-# 【使用的技術】
+# 【使用技術】
 
 *  HTML5+CSS3+Javascript-網頁開發
 *  Chart.js-圖表製作
