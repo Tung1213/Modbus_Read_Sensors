@@ -22,7 +22,7 @@ phpStuday是一PHP調試環境的程式集成包，包含Apache網頁伺服器+P
 *  HTML5+CSS3+Javascript-網頁開發
 *  Chart.js-圖表製作
 *  MySQL-資料庫儲存資料
-*  Modbus UDP通訊協定-和感測器通訊以讀取數據
+*  Modbus UDP通訊協定-和感測器通訊操作數據的讀取
 *  PHP-將感測器讀取出來的數據傳送到資料庫
 
 
